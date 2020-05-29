@@ -1,6 +1,6 @@
 [![Python](https://img.shields.io/badge/python-3.8.2-blue.svg)](https://python.org)
-[![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-blue.svg)](https://pypi.org/project/beautifulsoup4/)
-[![Selenium](https://img.shields.io/badge/Selenium-3.141-blue.svg)](https://pypi.org/project/selenium/)
+[![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-orange.svg)](https://pypi.org/project/beautifulsoup4/)
+[![Selenium](https://img.shields.io/badge/Selenium-3.141-green.svg)](https://pypi.org/project/selenium/)
 
 # Iledefrance-academy
 
