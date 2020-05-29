@@ -11,8 +11,12 @@ This repository has been developed in the context of [Trophées des étudiants-a
 The website can be found here:
 
 ## Documentation
-
 ### `WebScraping.py`
+
+| Argument  | Description  | Example |
+| ------------- |:-------------:|:-------------:|
+| **url:** *string* | Webpage url | "http://www.lkb.upmc.fr/boseeinsteincondensates/beugnon/" |
+
 This class gets the useful information (name, tel, email, ArXiv page) on a webpage given its url. A typical example of usage is:
 
 ```python
@@ -23,8 +27,34 @@ name, tel, email, Arxiv = pwi.find_name_email_tel_arXiv_on_webpage()
 ```
 
 ### `EditExcel.py`
-This class edits a Excel file in the format shown in 
 
+| Argument  | Description  | Example |
+| ------------- |:-------------:|:-------------:|
+| **file_name:** *string* | Path (saving file location with .xml extension) | "Document/file.xml" |
+| **name:** *list* | Contact names | ("name1", "name2") |
+| **lab:** *list* | Lab names | ("IPN_Orsay", "ENS") |
+| **research_group:** *list* | Research groups | ("team1", "team2") |
+| **tel:** *list* | Tel numbers | ("123", "456") |
+| **email:** *list* | Email adresses | ("a@abc.com", "b@abc.com") |
+| **arxiv_page:** *list* | ArXiv page urls | ("page1.com", "page2.com") |
+
+This class edits a Excel file in the format shown in ![IPN_Orsay.xml](IPN_Orsay.xml). A typical example of usage is:
+
+```python
+from EditExcel import excel
+names = ("name1", "name2")
+labs = ("IPN_Orsay", "ENS")
+research_groups = ("team1", "team2")
+tels = ("123", "456")
+emails = ("a@abc.com", "b@abc.com")
+arxiv_pages = ("page1.com", "page2.com")
+file_name = "Document/file.xml"
+e = excel(file_name = file_name, name = names, lab = labs, research_group = research_groups, tel = tels, email = emails, arxiv_page = arxiv_pages)
+e.write_excel()
+```
+
+### `__Main.py`
+This file is the main code where all the classes are imported and used.
 
 
 
