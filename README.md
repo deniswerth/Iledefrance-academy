@@ -8,7 +8,7 @@
 ## Motivations
 This repository has been developed in the context of [Trophées des étudiants-ambassadeurs de l'Île-de-France 2019-2020](https://www.iledefrance.fr/trophees-des-etudiants-ambassadeurs-de-lile-de-france-2019-2020). The île-de-France region organises this competition intended for students in exchange. The trophy rewards showcasing the richness of the île-de-France region. In this respect, this project aims at promoting French academic research by creating a website cataloguing useful research contacts. 
 
-The website can be found here:
+The website can be found here: http://iledefrance-academy.com/
 
 ## Documentation
 ### `WebScraping.py`
